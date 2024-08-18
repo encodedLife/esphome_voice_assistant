@@ -1,0 +1,13 @@
+{
+    "type": "micro",
+    "wake_word": "kadira",
+    "author": "encodedLife",
+    "website": "https://github.com/encodedLife",
+    "model": "./kadira.tflite",
+    "version": 1,
+    "micro": {
+      "probability_cutoff": 0.66,
+      "sliding_window_average_size": 10
+    }
+  }
+  
